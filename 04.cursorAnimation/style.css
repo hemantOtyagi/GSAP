@@ -1,0 +1,57 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#cursor{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  font-size: 4px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+}
+
+#image{
+  width: 50%;
+  height: 50%;
+  background-color: red;
+  background-image: url();
+  position: relative;
+}
+
+#image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: transparent;
+  z-index: 10;
+}
