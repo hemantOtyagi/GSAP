@@ -11,8 +11,9 @@ string.addEventListener("mousemove",(dets) => {
     //console.log(initialPath)
     gsap.to("svg path", {
     attr: {
-      d: finalPath
-    }
+      d: finalPath,
+    },
+    duration:0.2
   })
    
 })
